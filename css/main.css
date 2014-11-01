@@ -39,6 +39,10 @@ section.container-fluid.first-container.cf {}
 span.counter-item.text-center.special-text-1 { color: #FFF; font-family: 'Ubuntu',sans-serif; font-size: 50px; display: block; font-weight: 500; line-height: 75px; }
 span.counter-item.text-center.special-text-2 { color: #FFF; font-family: 'Ubuntu',sans-serif; font-size: 28px; display: block; font-weight: 100; line-height: 24px;}
 
+.supports-content .title { background-color: #c7d9df; border-radius: 3px; padding: 10px 39px; }
+.supports-content .title p { color: #154152; border-left: 1px solid #b5cad1; text-indent: 19px; margin: 0; font:700 15px 'Ubuntu', sans-serif; }
+.supports-content .item a  { display: block; }
+
  /**
  *
  *  HELPER CSS
