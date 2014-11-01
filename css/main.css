@@ -1,0 +1,55 @@
+/**
+ *
+ *  ON LOGİN CSS
+ *
+*/
+
+header { background: #003140; width: 1200px; height: 80px; }
+header.top { top: 20px; }
+header.menu a { font-family: 'Ubuntu', sans-serif; font-weight: 500; font-size: 15px; color: #FFF; }
+header.menu a:hover { color: #c7d9df;}
+
+.nav-bar-left  { background-color: #103a49; width: 20px; height: 100%;  left: 0; }
+.nav-bar-right { background-color: #c7d9df; width: 20px; height: 100%;  left: auto; right: 0;  }
+
+.top-buffer { margin-top: 280px;}
+.first-container { background: #215364 url(../i/first-section-bg.jpg) no-repeat center top; background-size: 100%;}
+
+section.container-fluid.first-container.cf {}
+
+section.container-fluid.first-container.cf {}
+
+section.container-fluid.first-container.cf {}
+.first-container .logo-main { width: 409px; height: 87px; background: url(../i/logo-big.png) no-repeat left top;}
+.first-container .special-text { font-family: 'Ubuntu', sans-serif; font-weight: 100; font-size: 22px; color: #FFF; line-height: 32px;}
+
+.filter-dd { padding: 0 !important; }
+.filter-dd button#dropdownMenu1 { padding: 15px 11px 12px 14px; background-color: #c7d9df; border-bottom-right-radius: 0; border-top-right-radius: 0;}
+.filter-dd span.fui-triangle-right-large { font-size: 11px; top: -2px; color: #154152;}
+.filter-dd span.fui-list { font-size: 20px; color: #154152;}
+#search-form input[type="search"] { width: 100%; margin-top: 0; border: transparent; height: 50px; border-bottom-left-radius: 0; border-top-left-radius: 0;}
+#search-form button.search-btn { height: 50px; background-color: #154152; border-color: #154152;}
+#search-form .btn-group { float: left; }
+.istatists-container { padding: 75px 0; }
+.istatists-icon { width: 130px; height: 130px; background-image: url(../i/istatistic-section.png); display: block; background-repeat: no-repeat; }
+.istatists-icon-1 { background-position: left top;}
+.istatists-icon-2 { background-position: -152px top;}
+.istatists-icon-3 { background-position: right top;}
+
+span.counter-item.text-center.special-text-1 { color: #FFF; font-family: 'Ubuntu',sans-serif; font-size: 50px; display: block; font-weight: 500; line-height: 75px; }
+span.counter-item.text-center.special-text-2 { color: #FFF; font-family: 'Ubuntu',sans-serif; font-size: 28px; display: block; font-weight: 100; line-height: 24px;}
+
+ /**
+ *
+ *  HELPER CSS
+ *
+*/
+
+/* Default Line NOTES:: parentine pos-rel clasını ver */
+.default-line { width: 70px; height: 5px; border-radius: 3px; }
+.default-line.white-color { background: #FFFFFF; }
+.default-line.fixed-bottom-center { bottom: 5px; position: absolute; left: 50%; margin-left: -35px;}
+
+
+.pos-rel { position: relative;}
+.vertical-align { display: flex; align-items: center; }
